@@ -1,7 +1,12 @@
 [![alt tag](http://img.shields.io/badge/maintainer-jheretic-red.svg)](https://github.com/jheretic)
 
-Commotion-Router
-===============
+Commotion-Router (with babel!)
+==============================
+
+This project is a fork of the Commotion-Router by OTI. We aim to add better support for the Babel routing protocol (and hopefully merge it back into the main project). This project is used by Reseau Libre (Montreal). NB: we work on the 'rl-babel-1.2' branch. The master branch should follow the upstream project. If you would like to submit a patch, please send a pull-request on our rl-babel-1.2 branch. More information at: http://wiki.reseaulibre.ca/documentation/commotion-wireless/
+
+What follows below is the original README from Commotion-Router.
+
 *This new, CMake-based build system only works for Barrier Breaker-based images, which are not yet fully functional. Use the 1.1 branch to use the old buildsystem for creation of Attitude Adjustment-based v1.1 images.*
 
 Commotion is an open source “device-as-infrastructure” communication platform that integrates users’ existing cell phones, Wi-Fi enabled computers, and other wireless-capable devices to create community- and metro-scale, peer-to-peer communications networks.
