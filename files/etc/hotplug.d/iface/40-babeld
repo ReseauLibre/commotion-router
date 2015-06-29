@@ -4,6 +4,12 @@
 
 #DEBUG="echo"
 
+## Original code for OpenWRT AA:
+## https://github.com/opentechinstitute/commotion-router/pull/118/commits
+##
+## The patch for olsr was not included in this branch, since we plan
+## to disable OLSR.
+
 logger -s -t hotplug.babeld "Action: $ACTION, Interface: $INTERFACE, Device: $DEVICE"
 
 sort_list() {
